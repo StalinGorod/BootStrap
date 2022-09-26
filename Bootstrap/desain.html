@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minutes | Responsive Multipurpose Landing Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        .bag1 {
+            background: url(images/1920x1080_px_Tiger_I_World_Of_Tanks-547726.jpg!d) no-repeat center bottom;
+            background-size: cover;
+            height: 100vh;
+            padding: 30px 0;
+        }
+
+        .bag1 h2 {
+            color: #fff;
+            font-size: 55px;
+            line-height: 50px;
+            font-weight: 400;
+            margin: 0px 0px 15px;
+            letter-spacing: -1px;
+        }
+
+        .clients img {
+            max-width: 140px;
+            transition: all 0.3s ease 0s;
+            opacity: 0.2;
+            filter: grayscale(1);
+        }
+
+        .center-block {
+            display: block;
+            margin-left: 100px;
+        }
+
+        .service-content {
+            text-align: center;
+        }
+
+        .info-content {
+            padding: 100px 0;
+        }
+
+        .info-content {
+            padding: 100px 0;
+        }
+
+        .feature-content {
+            padding: 90px 0px 50px;
+            background: #222;
+            position: relative;
+        }
+
+        .testimonials {
+            padding: 100px 0;
+        }
+
+        .kubus1 {
+            width: 100%;
+            height: 220px;
+            border: 1px solid gray;
+        }
+
+        .kubus2 {
+            width: 100%;
+            height: 220px;
+            border: 1px solid gray;
+            float: right;
+        }
+
+        .pricing {
+            padding: 90px 0 120px;
+            background-color: #F5F5F5;
+        }
+
+        .price {
+            font-size: 55px;
+            font-weight: 400;
+            color: #000;
+            padding: 10px 0 0;
+        }
+
+        .pricing .list-group-item {
+            color: #666;
+            font-size: 13px;
+            border: medium none;
+            margin: 0px;
+            text-transform: none;
+            letter-spacing: 0px;
+            padding: 12px 15px;
+        }
+
+        .list-group {
+            padding: 15px 0px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .cta-content {
+            padding: 90px 0;
+            background: #333;
+        }
+
+        footer,
+        footer p,
+        footer a {
+            color: #999;
+            font-size: 13px;
+        }
+
+        footer {
+            padding: 100px 0;
+            background: #222;
+        }
+
+        footer h4 {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 13px;
+            margin: 0px 0px 17px;
+            letter-spacing: 1px;
+            font-weight: 600
+        }
+
+        a,
+        a:hover,
+        a:focus,
+        button,
+        button:hover {
+            outline: 0;
+            text-decoration: none;
+            transition: .4s
+        }
+
+        .gbr1 {
+            background-size: cover;
+            background-image: url(images/e06b804e389843a5e09a6491773cba06.jpg);
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark p-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Minutes</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white link-info" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white link-info" href="#">Contact</a>
+                    </li>
+                    <img src="images/th-removebg-preview.png" style="height: 40px; margin-left: 70px;">
+                    <div class="top-contact pull-right editContent text-white"
+                        style="margin-left: 650px; position:absolute;">
+                        <i class="icon-phone"></i> <span class="text-info" style="font-size: 15px;">Call us
+                            today</span><br>1800 1234 5678
+                    </div>
+                    </form>
+            </div>
+        </div>
+    </nav>
+    <div class="bag1">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row center-content">
+                <div class="col-md-12 text-center" style="width: 900px;margin:auto;margin-top:170px;">
+                    <h2>Meet Minutes Landing Page</h2>
+                    <p class="space30 aditContent" style="color: white;">Lorem ipsum dolor sit amet ipsum lectus neumew
+                        nulla rhoncus eu quam sit <br>amet varius lectus eget ligula eleifend rutrum ac vel justo.</p>
+                    <a href="#" class="btn btn-info p-3">Purchase Now<i class="ti-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-dark btn-ico p-3">Learn More<i class="ti-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="clients">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <img class="center-block" src="images/1.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="center-block" src="images/2.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="center-block" src="images/3.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="center-block" src="images/4.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="center-block" src="images/5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="service-content">
+        <div class="container">
+            <h2>We have built a Amazing<br> Landing Page Multi purpose kit</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="icon-box text-center">
+                        <span class="ico">
+                            <i class="fa icon-monitor fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <img src="images/Screenshot (4).png" alt="">
+                        <h4>Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consec tetur itaque autem neque adipi sicing elit repudiandae
+                            fugiat illo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="icon-box text-center">
+                        <span class="ico">
+                            <i class="fa icon-albums fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <img src="images/Screenshot (5).png" alt="">
+                        <h4>Multiple Concepts</h4>
+                        <p>Lorem ipsum dolor sit amet consec tetur itaque autem neque adipi sicing elit repudiandae
+                            fugiat illo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="icon-box text-center">
+                        <span class="ico">
+                            <i class="fa icon-bicycle fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <img src="images/Screenshot (10).png" alt="">
+                        <h4>Easy Customise</h4>
+                        <p>Lorem ipsum dolor sit amet consec tetur itaque autem neque adipi sicing elit repudiandae
+                            fugiat illo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="icon-box text-center">
+                        <span class="ico">
+                            <i class="fa icon-box2 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <img src="images/Screenshot (11).png" alt="">
+                        <h4>Out of the Box</h4>
+                        <p>Lorem ipsum dolor sit amet consec tetur itaque autem neque adipi sicing elit repudiandae
+                            fugiat illo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-content">
+        <div class="container">
+            <div class="row center-content">
+                <div class="col-md-8">
+                    <img src="images/1 (1).png" style="width: 100%; height: 100%;">
+                </div>
+                <div class="col-md-4">
+                    <br><br><br>
+                    <h2>Responsive<br>Design</h2>
+                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                        orci ut et lobortis aliquam. Aliquam in tortor enim.</p>
+                    <a href="#" class="btn btn-info p-3">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dual-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 bg-info gbr1">
+                </div>
+                <div class="col-6 bg-info ps-4 pb-5">
+                    <br><br><br>
+                    <h1 class="text-white">Retina-Ready &amp;<br> Responsive</h1>
+                    <p class="text-white">The entire idea of the retina-ready technology is to give sharper images, and
+                        to create
+                        something that would look as sharp as it would in print. This is what you will find in
+                        the Monstroid WordPress theme.</p>
+                    <ul class="space30" style="list-style: #fff;">
+                        <li><span class="fa fa-check list-icon"></span><a href="#" class="text-white">Lorem ipsum dolor
+                                sit
+                                amet</a></li>
+                        <li><span class="fa fa-check list-icon"></span><a href="#" class="text-white">Elit sed do
+                                eiusmod
+                                tempor</a></li>
+                        <li><span class="fa fa-check list-icon"></span><a href="#" class="text-white">Incididunt ut
+                                labore</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="info-content">
+        <div class="container">
+            <div class="row center-content">
+                <div class="col-md-5 col-md-pull-7">
+                    <br><br><br>
+                    <h2>Multipurpose<br>Template</h2>
+                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                        orci ut et lobortis aliquam. Aliquam in tortor enim.</p>
+                    <a href="#" class="btn btn-info p-3">Learn More</a>
+                </div>
+                <div class="col-md-7 col-md-push-5">
+                    <img src="images/2(1).png" style="width: 100%; height: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feature-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 content-head-lite text-center">
+                    <h2 class="text-white">Features of Minutes</h2>
+                    <p class="text-secondary">Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed
+                        do<br>
+                        eiusmod tempor posuere
+                        molestie lorem lectus interdum augue</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 fc-inner">
+                    <div class="fc-thumb">
+                        <img src="images/2.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    <br>
+                    <h4 class="text-white">Marketing Concepts</h4>
+                    <p class="text-white">Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu
+                        nulla eu, lacinia
+                        tincidunt ligula. </p>
+                    <a href="#" class="btn btn-info p-3 btn-xs text-white">Learn More <i
+                            class="fa fa-long-arrow-right"></i></a>
+                </div>
+                <div class="col-md-4 fc-inner">
+                    <div class="fc-thumb">
+                        <img src="images/3.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    <br>
+                    <h4 class="text-white">Device Optimized</h4>
+                    <p class="text-white">Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu
+                        nulla eu, lacinia
+                        tincidunt ligula. </p>
+                    <a href="#" class="btn btn-info p-3 btn-xs text-white">Learn More <i
+                            class="fa fa-long-arrow-right"></i></a>
+                </div>
+                <div class="col-md-4 fc-inner">
+                    <div class="fc-thumb">
+                        <img src="images/4.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    <br>
+                    <h4 class="text-white">Target Audience</h4>
+                    <p class="text-white">Sed commodo suscipit neque et libero sed finibus. Morbi elit nulla, rutrum eu
+                        nulla eu, lacinia
+                        tincidunt ligula. </p>
+                    <a href="#" class="btn btn-info p-3 btn-xs text-white">Learn More <i
+                            class="fa fa-long-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="content-head space60 text-center">
+                    <h2>What our clients say</h2>
+                    <p class="text-secondary">Suspendisse egestas mattis rhoncus pellen tesque euismod erat at sed
+                        do<br> eiusmod tempor
+                        posuere molestie lorem lectus interdum augue</p>
+                </div>
+                <div class="col-md-4 fc-inner">
+                    <div class="kubus1">
+                        <br>
+                        <p class="ps-4 text-secondary">It's iaculis lectus sed mattis nibh<br> phasellus iaculis
+                            pulvinar
+                            purus vitae<br> ligula interdum at mattis dui sodales<br> non neque sit amet enim </p>
+                        <div class="fc-thumb ps-4">
+                            <img src="images/1.jpg" style="width: 50px; height: 50px; border-radius: 50px;">
+                            <img src="images/Screenshot (7).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fc-inner">
+                    <div class="kubus1">
+                        <p class="ps-4 text-secondary pt-4">It's iaculis lectus sed mattis nibh<br> phasellus iaculis
+                            pulvinar
+                            purus vitae<br> ligula interdum at mattis dui sodales<br> non neque sit amet enim </p>
+                        <div class="fc-thumb ps-4">
+                            <img src="images/2 (1).jpg" style="width: 50px; height: 50px;border-radius: 50px;">
+                            <img src="images/Screenshot (8).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fc-inner">
+                    <div class="kubus1">
+                        <p class="ps-4 text-secondary pt-4">It's iaculis lectus sed mattis nibh<br> phasellus
+                            iaculis
+                            pulvinar
+                            purus vitae<br> ligula interdum at mattis dui sodales<br> non neque sit amet enim </p>
+                        <div class="fc-thumb  ps-4">
+                            <img src="images/1.jpg" style="width: 50px; height: 50px;border-radius: 50px;">
+                            <img src="images/Screenshot (9).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="pricing">
+        <div class="container-fluid">
+            <div class="content-head space60 text-center">
+                <h2>Choose your best plan</h2>
+                <p>Suspendisse egestas mattis rhoncus pellen erat at sed do eiusmod tempor<br>posuere molestie
+                    lorem lectus interdum augue</p>
+                <img src="images/Screenshot (12).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="cta-content">
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="text-center">
+                    <i class="ti-shopping-cart head-ico"></i>
+                    <img src="images/Screenshot (6).png" alt="">
+                    <h3 class="text-white">Are you impressed ?</h3>
+                    <p class="space30 text-secondary">Lorem ipsum dolor sit amet curabitur eu dapibus felis.
+                        Morbi
+                        ut dolor ut mi
+                        ultricies lobortis.<br>Morbi et viverra turpis. Donec cursus ornare purus nec porttitor.
+                    </p>
+                    <a href="#" class="btn btn-info text-white p-3">Download Minutes Now <i
+                            class="ti-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="footer-logo text-white">Minutes</a></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit rhoncus tempus perdiet risus sit amet
+                        volutpat.</p>
+                    <img src="images/Screenshot (3).png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <h4>Related Links</h4>
+                    <div class="row text-secondary">
+                        <div class="col-md-6 fs-5">
+                            <a href="#">About Us</a>
+                            <br>
+                            <a href="#">Testimonials</a>
+                            <br>
+                            <a href="#">Our Team</a>
+                            <br>
+                            <a href="#">Contact Us</a>
+                        </div>
+                        <div class="col-md-6 fs-5">
+                            <a href="#">Register</a>
+                            <br>
+                            <a href="#">Forum</a>
+                            <br>
+                            <a href="#">Affiliate</a>
+                            <br>
+                            <a href="#">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Payment Methods</h4>
+                    <a href="#"><img src="images/1 (2).png" style="width: 70px;"></a>
+                    <a href="#"><img src="images/2 (1).png" style="width: 70px;"></a>
+                    <a href="#"><img src="images/3 (1).png" style="width: 70px;"></a>
+                    <a href="#"><img src="images/5 (1).png" style="width: 70px;"></a>
+                    <br>
+                    <p>© 2016. Minutes. All Rights Reserved.<br>Designed, developed &amp; Maintained by
+                        Theme.Express</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</html>
